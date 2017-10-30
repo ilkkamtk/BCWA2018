@@ -2,7 +2,7 @@
 
 
 ## Get started
-  * Save this repository as zip `git clone https://github.com/ilkkamtk/BCW1.git` and extract it 
+  * Save this repository as zip https://github.com/ilkkamtk/BCW1.git and extract it 
 
 ## Selecting and manipulating elements + events
   * Open sample.html

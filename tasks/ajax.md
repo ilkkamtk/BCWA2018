@@ -10,7 +10,7 @@
   * https://davidwalsh.name/fetch
   
 ## Get Started
-  * Save this repository as zip  `git clone https://github.com/ilkkamtk/BCW2.git` adn extract it
+  * Save this repository as zip  clone https://github.com/ilkkamtk/BCW2 and extract it
 
 ### Task A
   * Create an AJAX application which fethes HTML-document and displays it on web page

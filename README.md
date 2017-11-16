@@ -11,3 +11,4 @@
 1. [CSS recap](https://github.com/ilkkamtk/imageList)
 2. [Form validation](tasks/1-FormValidation.md)
 3. [Ajax](tasks/ajax.md)
+4. [File upload](tasks/fileUpload.md)

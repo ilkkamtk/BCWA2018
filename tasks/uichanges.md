@@ -22,7 +22,7 @@
 
 ### Task B 
   * Open task_b.html, main_b.js ja main.css
-  * Modify main_b.js:ää and main.css:ää so that when clicking the thumbnails in the gird large images are not opend in a new page but they are opened in a modal (lightbox)
+  * Modify main_b.js and main.css so that when clicking the thumbnails in the gird large images are not opend in a new page but they are opened in a modal (lightbox)
     * modal could look like this:
     ___
     ![Index screenshot](https://raw.githubusercontent.com/ilkkamtk/mpjkk/master/Week1/images/gallery2.png)

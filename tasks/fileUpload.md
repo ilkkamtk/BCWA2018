@@ -2,6 +2,8 @@
 
 ## Start
 1. Load and extract this repo as a ZIP https://github.com/ilkkamtk/BCW3
+   * save to same folder with WEB-INF to test in browser (web pages or webcontent). In this case form action="servlet".
+   * you can also upload to /var/www/html/subfolder. In this case form action="ipadress:8080/servlet".
 
 ## 1. It's 90's again
 
@@ -25,7 +27,6 @@
     // make an object for settings
     const settings = {
             method: 'POST',
-            // credentials: 'same-origin', // this might be needed for some servers
             body: data
         };
     // initiate fetch. In this example the server responds with text.
@@ -36,7 +37,6 @@
         console.log(text);
     });
 ```
-* [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) 
 * [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
 * Modify task_b.html and main_b.js
 * More help in the comments of main_b.js

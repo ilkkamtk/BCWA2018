@@ -6,6 +6,7 @@
 * [GIT basic usage / submitting tasks](theory/W1-1-git.md)
 * [JS style guide](theory/W1-2-JS-styleguide.md)
 * [ES6 basics](theory/W1-2-ES6.md)
+* [JavaScript cheatsheet](theory/JS-cheatsheet.md)
 
 ## Tasks
 1. [CSS recap](https://github.com/ilkkamtk/imageList)

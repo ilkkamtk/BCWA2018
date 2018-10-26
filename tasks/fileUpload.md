@@ -2,13 +2,11 @@
 
 ## Start
 1. Load and extract this repo as a ZIP https://github.com/ilkkamtk/BCW3
-   * save to same folder with WEB-INF to test in browser (web pages or webcontent). In this case form action="servlet".
-   * you can also upload to /var/www/html/subfolder. In this case form action="ipadress:8080/servlet".
 
 ## 1. It's 90's again
 
 * Modify task_a.html
-  * Complete the form to upload an image to your Java server
+  * Complete the form to upload an image to your Express server
   * Study [attributes of input element](https://www.w3schools.com/tags/tag_input.asp) and find a suitable attribute to select only images 
 
 
@@ -32,7 +30,7 @@
         };
     // initiate fetch. In this example the server responds with text.
     // Response could also be json. Then you would use response.json()
-    fetch('upload.php', settings).then((response) => {
+    fetch('url_to_server', settings).then((response) => {
         return response.json();
     }).then((json) => {
         console.log(json);

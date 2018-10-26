@@ -1,4 +1,4 @@
-# Basic Concepts of Web Technology 2017
+# Basic Concepts of Web Technology 2018
 
 ### Front-end material
 

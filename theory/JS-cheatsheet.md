@@ -106,12 +106,12 @@ xhr.send(fData);
 // get data from e.g. form
 const myForm = document.querySelector('form');
 const fData = new FormData(lomake);
-// asetusobjekti fetchiä varten 
+// settings object for fetch 
 const settings = {
   method: 'post',
   data: fData
 };
-fetch('someJsonResponseServlet', asetukset)
+fetch('someJsonResponseServlet', settings)
   .then( (response) => {
     return response.json();
   })

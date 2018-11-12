@@ -109,7 +109,7 @@ const fData = new FormData(lomake);
 // settings object for fetch 
 const settings = {
   method: 'post',
-  data: fData
+  body: fData
 };
 fetch('someJsonResponseServlet', settings)
   .then( (response) => {

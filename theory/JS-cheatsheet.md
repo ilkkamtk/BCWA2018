@@ -105,7 +105,7 @@ xhr.send(fData);
 ```javascript
 // get data from e.g. form
 const myForm = document.querySelector('form');
-const fData = new FormData(lomake);
+const fData = new FormData(myForm);
 // settings object for fetch 
 const settings = {
   method: 'post',

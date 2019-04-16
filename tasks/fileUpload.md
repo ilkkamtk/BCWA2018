@@ -42,6 +42,8 @@
 * Modify task_b.html and main_b.js
 * More help in the comments of main_b.js
 
-## 3. Adding to database
+## 3. Adding to database (optional)
 * Add uploaded files to database
-   * Add new input-element to main_b.js for adding a title for
+   * Add new input-element to main_b.js for adding a title for the uploaded file (image)
+   * In your express server create a middleware to save the filename and title to database after upload
+   

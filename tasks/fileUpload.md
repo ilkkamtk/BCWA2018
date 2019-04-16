@@ -8,6 +8,7 @@
 * Modify task_a.html
   * Complete the form to upload an image to your Express server
   * Study [multer](https://github.com/expressjs/multer) to find out how to receive files with express
+  * Study [using cors in express cors](https://medium.com/@alexishevia/using-cors-in-express-cac7e29b005b) to find out how to handle cross domain requests
   * Study [attributes of input element](https://www.w3schools.com/tags/tag_input.asp) and find a suitable attribute to select only images 
 
 
@@ -40,3 +41,7 @@
 * [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
 * Modify task_b.html and main_b.js
 * More help in the comments of main_b.js
+
+## 3. Adding to database
+* Add uploaded files to database
+   * Add new input-element to main_b.js for adding a title for

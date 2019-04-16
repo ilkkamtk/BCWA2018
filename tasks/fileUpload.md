@@ -7,6 +7,7 @@
 
 * Modify task_a.html
   * Complete the form to upload an image to your Express server
+  * Study [multer](https://github.com/expressjs/multer) to find out how to receive files with express
   * Study [attributes of input element](https://www.w3schools.com/tags/tag_input.asp) and find a suitable attribute to select only images 
 
 

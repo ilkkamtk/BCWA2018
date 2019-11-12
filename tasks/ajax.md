@@ -6,8 +6,7 @@
   * http://www.json.org/
   * https://github.com/mattpe/wbma/blob/master/docs/w3-promises.
   * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-  * https://github.com/github/fetch  -fetch polyfill
-  * https://davidwalsh.name/fetch
+  * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch - using fetch
   
 ## Get Started
   * Save this repository as zip  clone https://github.com/ilkkamtk/BCW2 and extract it

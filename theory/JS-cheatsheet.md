@@ -118,5 +118,5 @@ const postFetchData = async (url, data) => {
    console.log(result);
 }
 
-getPosthData('someJsonResponseServlet', fData);
+getPostData('someJsonResponseServlet', fData);
 ```

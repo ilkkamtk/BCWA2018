@@ -76,13 +76,13 @@ xhr.send();
 ```
 #### New way
 ```javascript
-fetch('someJsonResponseServlet')
-  .then( (response) => {
-    return response.json();
-  })
-  .then( (result) => {
-    console.log(result);
-  });
+const getFetchData = async (url) => {
+   const response = await fetch(url);
+   const result = await response.json();
+   console.log(result)
+}
+
+getFetchData('someJsonResponseServlet');
 ```
 
 ### AJAX post method
@@ -106,16 +106,17 @@ xhr.send(fData);
 // get data from e.g. form
 const myForm = document.querySelector('form');
 const fData = new FormData(myForm);
-// settings object for fetch 
-const settings = {
-  method: 'post',
-  body: fData
-};
-fetch('someJsonResponseServlet', settings)
-  .then( (response) => {
-    return response.json();
-  })
-  .then( (result) => {
-    console.log(result);
-  });
+
+const postFetchData = async (url, data) => {
+   // settings object for fetch 
+   const settings = {
+     method: 'post',
+     body: data
+   };
+   const response = await fetch(url, settings);
+   const result = await response.json();
+   console.log(result);
+}
+
+getPosthData('someJsonResponseServlet', fData);
 ```

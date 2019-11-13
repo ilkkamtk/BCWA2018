@@ -9,7 +9,7 @@
   * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch - using fetch
   
 ## Get Started
-  * Save this repository as zip  clone https://github.com/ilkkamtk/BCW2 and extract it
+  * Save this repository as zip https://github.com/ilkkamtk/BCW2 and extract it
 
 ### Task A
   * Create an AJAX application which fethes HTML-document and displays it on web page

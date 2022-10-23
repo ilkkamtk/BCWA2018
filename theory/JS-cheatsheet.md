@@ -88,7 +88,7 @@ getFetchData('someJsonResponseServlet');
 ### AJAX post method
 #### Old way
 ```javascript
-// send data with file (multipart/form-data)
+// data has file(s) (multipart/form-data)
 const myForm = document.querySelector('form');
 const fData = new FormData(myForm);
 const xhr = new XMLHttpRequest();
@@ -103,7 +103,7 @@ xhr.send(fData);
 ```
 #### New way
 ```javascript
-// send data with file (multipart/form-data)
+// data has file(s) (multipart/form-data)
 const myForm = document.querySelector('form');
 const fData = new FormData(myForm);
 

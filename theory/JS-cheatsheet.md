@@ -88,7 +88,7 @@ getFetchData('someJsonResponseServlet');
 ### AJAX post method
 #### Old way
 ```javascript
-// get data from e.g. form
+// send data with file (multipart/form-data)
 const myForm = document.querySelector('form');
 const fData = new FormData(myForm);
 const xhr = new XMLHttpRequest();
@@ -103,7 +103,7 @@ xhr.send(fData);
 ```
 #### New way
 ```javascript
-// get data from e.g. form
+// send data with file (multipart/form-data)
 const myForm = document.querySelector('form');
 const fData = new FormData(myForm);
 
@@ -119,4 +119,23 @@ const postFetchData = async (url, data) => {
 }
 
 getPostData('someJsonResponseServlet', fData);
+
+// send text data as JSON
+const someData = {username: 'frank', password: 'qwer1234'};
+
+const postFetchData = async (url, data) => {
+   // settings object for fetch 
+   const settings = {
+     method: 'post',
+     headers: {
+       'Content-Type': 'application/json'
+     },
+     body: JSON.stringify(data)
+   };
+   const response = await fetch(url, settings);
+   const result = await response.json();
+   console.log(result);
+}
+
+getPostData('someJsonResponseServlet', someData);
 ```
